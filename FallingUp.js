@@ -1,3 +1,4 @@
+// The reason for "active: false, position: [-999, -999, -999]" was because some of the things were continuing to show even though not being active
 environment.push(
   {id: ".[0]Environment", lookupMethod: "EndsWith", components: {BloomFogEnvironment: {attenuation: 0.0001, height: 7.5, startY: -30}}},
   {id: "Spectrograms", lookupMethod: "Contains", active: false},
